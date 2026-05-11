@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FZ Dev | AI Solutions</title>
+    <meta name="description" content="We Build AI Solutions That Grow Your Business">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-bg text-white overflow-x-hidden leading-relaxed font-sans">
+    <!-- Navbar -->
+    <header class="navbar fixed top-0 w-full py-5 bg-[#0b0f19]/80 backdrop-blur-md z-50 flex justify-around items-center border-b border-glass-border">
+        <div class="logo text-3xl font-extrabold tracking-wide">FZ<span class="text-primary">Dev</span></div>
+        <nav>
+            <ul class="nav-links hidden md:flex list-none items-center gap-8">
+                <li><a href="#about" class="text-gray-200 font-semibold transition hover:text-white">About</a></li>
+                <li><a href="#services" class="text-gray-200 font-semibold transition hover:text-white">Services</a></li>
+                <li><a href="#portfolio" class="text-gray-200 font-semibold transition hover:text-white">Portfolio</a></li>
+                <li><a href="#pricing" class="text-gray-200 font-semibold transition hover:text-white">Pricing</a></li>
+                <li><a href="#faq" class="text-gray-200 font-semibold transition hover:text-white">FAQ</a></li>
+                <li><a href="#contact" class="inline-block bg-gradient-to-br from-primary to-secondary text-white px-8 py-3 rounded-full font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(99,102,241,0.5)]">Book Consultation</a></li>
+            </ul>
+            <div class="hamburger block md:hidden text-2xl cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero h-screen flex items-center justify-center text-center relative bg-[url('assets/hero_bg.png')] bg-no-repeat bg-center bg-cover">
+        <div class="absolute inset-0 bg-bg/70"></div>
+        <div class="hero-content relative z-10 max-w-3xl px-5">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-6 font-extrabold">We Build <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">AI Solutions</span> That Grow Your Business</h1>
+            <p class="text-xl text-gray-200 mb-10">Empower your brand with cutting-edge artificial intelligence and premium web experiences.</p>
+            <div class="hero-buttons flex flex-col sm:flex-row gap-5 justify-center">
+                <a href="#contact" class="inline-block bg-gradient-to-br from-primary to-secondary text-white px-8 py-3 rounded-full font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(99,102,241,0.5)]">Book Free Consultation</a>
+                <a href="#portfolio" class="inline-block bg-transparent text-white px-8 py-3 rounded-full font-semibold border border-white transition hover:bg-white hover:text-bg">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Us -->
+    <section id="about" class="about py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="about-grid grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="about-text">
+                    <h2 class="text-3xl md:text-4xl mb-5 font-extrabold">About <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">FZ Dev</span></h2>
+                    <p class="text-gray-200 mb-4 text-lg">At FZ Dev, we are pioneers in bridging the gap between business processes and artificial intelligence. We believe in crafting intelligent solutions that not only look visually stunning but deliver measurable growth.</p>
+                    <p class="text-gray-200 mb-4 text-lg">Based in Surat, Gujarat, our team of expert developers and AI specialists work passionately to automate, optimize, and elevate your digital presence.</p>
+                    <div class="stats flex flex-wrap gap-6 md:gap-8 mt-8">
+                        <div class="stat-item">
+                            <h3 class="text-4xl text-primary font-bold">50+</h3>
+                            <p class="text-gray-200">Projects Delivered</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="text-4xl text-primary font-bold">99%</h3>
+                            <p class="text-gray-200">Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-container flex justify-center">
+                    <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-12 text-center max-w-xs transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                        <i class="fas fa-microchip text-6xl text-secondary mb-5"></i>
+                        <h3 class="text-xl font-bold mb-2">Innovation First</h3>
+                        <p class="text-gray-200">We leverage the latest models to bring you tomorrow's technology today.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Services -->
+    <section id="services" class="services py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Our <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Services</span></h2>
+            <div class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 md:gap-8">
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <i class="fas fa-robot text-4xl text-primary mb-5"></i>
+                    <h3 class="text-xl font-bold mb-4">AI Chatbots</h3>
+                    <p class="text-gray-200 text-base">Intelligent customer support and automated lead generation tailored to your business.</p>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <i class="fas fa-laptop-code text-4xl text-primary mb-5"></i>
+                    <h3 class="text-xl font-bold mb-4">Website Development</h3>
+                    <p class="text-gray-200 text-base">Premium, responsive, and blazing-fast websites designed to convert visitors into clients.</p>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <i class="fas fa-cogs text-4xl text-primary mb-5"></i>
+                    <h3 class="text-xl font-bold mb-4">Business Automation</h3>
+                    <p class="text-gray-200 text-base">Streamline your operations and save hours of manual work with custom AI workflows.</p>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <i class="fas fa-search-dollar text-4xl text-primary mb-5"></i>
+                    <h3 class="text-xl font-bold mb-4">SEO Optimization</h3>
+                    <p class="text-gray-200 text-base">Rank higher on search engines and dominate your local and global market.</p>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <i class="fas fa-bullhorn text-4xl text-primary mb-5"></i>
+                    <h3 class="text-xl font-bold mb-4">Digital Marketing</h3>
+                    <p class="text-gray-200 text-base">Data-driven marketing strategies to maximize your ROI and brand visibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Portfolio -->
+    <section id="portfolio" class="portfolio py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Featured <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Projects</span></h2>
+            <div class="portfolio-grid grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
+                
+                <div class="group bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-5 flex flex-col transition-all duration-400 hover:-translate-y-2 hover:scale-[1.02] hover:border-primary/50 hover:shadow-[0_15px_40px_rgba(99,102,241,0.3),0_0_20px_rgba(168,85,247,0.2)]">
+                    <div class="overflow-hidden rounded-xl mb-5 relative after:absolute after:inset-0 after:shadow-[inset_0_0_20px_rgba(0,0,0,0.2)] after:rounded-xl after:pointer-events-none">
+                        <img src="assets/jewellery.png" alt="Jewellery E-Commerce Website" class="w-full h-56 sm:h-64 object-cover block transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="portfolio-info flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Jewellery E-Commerce Website</h3>
+                        <p class="text-gray-200 text-base mb-6 flex-grow">A luxury e-commerce platform with AR try-on and AI recommendations.</p>
+                        <div class="mt-auto">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2.5 bg-white/5 text-white px-5 py-3 rounded-xl font-semibold transition hover:bg-white/15 hover:-translate-y-0.5 hover:shadow-lg hover:border-white/30 border border-white/10 w-full"><i class="fab fa-github text-lg"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-5 flex flex-col transition-all duration-400 hover:-translate-y-2 hover:scale-[1.02] hover:border-primary/50 hover:shadow-[0_15px_40px_rgba(99,102,241,0.3),0_0_20px_rgba(168,85,247,0.2)]">
+                    <div class="overflow-hidden rounded-xl mb-5 relative after:absolute after:inset-0 after:shadow-[inset_0_0_20px_rgba(0,0,0,0.2)] after:rounded-xl after:pointer-events-none">
+                        <img src="assets/architecture.png" alt="Architecture Website" class="w-full h-56 sm:h-64 object-cover block transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="portfolio-info flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Architecture Website</h3>
+                        <p class="text-gray-200 text-base mb-6 flex-grow">Modern portfolio for an architectural firm featuring 3D web experiences.</p>
+                        <div class="mt-auto">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2.5 bg-white/5 text-white px-5 py-3 rounded-xl font-semibold transition hover:bg-white/15 hover:-translate-y-0.5 hover:shadow-lg hover:border-white/30 border border-white/10 w-full"><i class="fab fa-github text-lg"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-5 flex flex-col transition-all duration-400 hover:-translate-y-2 hover:scale-[1.02] hover:border-primary/50 hover:shadow-[0_15px_40px_rgba(99,102,241,0.3),0_0_20px_rgba(168,85,247,0.2)]">
+                    <div class="overflow-hidden rounded-xl mb-5 relative after:absolute after:inset-0 after:shadow-[inset_0_0_20px_rgba(0,0,0,0.2)] after:rounded-xl after:pointer-events-none">
+                        <img src="assets/ai_agency.png" alt="AI Agency Website" class="w-full h-56 sm:h-64 object-cover block transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="portfolio-info flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-2">AI Agency Dashboard</h3>
+                        <p class="text-gray-200 text-base mb-6 flex-grow">A futuristic dashboard for monitoring AI agent performance and analytics.</p>
+                        <div class="mt-auto">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2.5 bg-white/5 text-white px-5 py-3 rounded-xl font-semibold transition hover:bg-white/15 hover:-translate-y-0.5 hover:shadow-lg hover:border-white/30 border border-white/10 w-full"><i class="fab fa-github text-lg"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-5 flex flex-col transition-all duration-400 hover:-translate-y-2 hover:scale-[1.02] hover:border-primary/50 hover:shadow-[0_15px_40px_rgba(99,102,241,0.3),0_0_20px_rgba(168,85,247,0.2)]">
+                    <div class="overflow-hidden rounded-xl mb-5 relative after:absolute after:inset-0 after:shadow-[inset_0_0_20px_rgba(0,0,0,0.2)] after:rounded-xl after:pointer-events-none">
+                        <img src="assets/medicine.png" alt="Medicine Website" class="w-full h-56 sm:h-64 object-cover block transition-transform duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="portfolio-info flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Medicine Website</h3>
+                        <p class="text-gray-200 text-base mb-6 flex-grow">Responsive website for pharmacy with appointment booking and quick order placement.</p>
+                        <div class="mt-auto">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2.5 bg-white/5 text-white px-5 py-3 rounded-xl font-semibold transition hover:bg-white/15 hover:-translate-y-0.5 hover:shadow-lg hover:border-white/30 border border-white/10 w-full"><i class="fab fa-github text-lg"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Testimonials -->
+    <section class="testimonials py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Client <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Success</span></h2>
+            <div class="testimonials-grid grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <div class="stars text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="italic text-gray-200 mb-5">"FZ Dev transformed our business with an incredible AI chatbot. Our customer engagement has never been higher."</p>
+                    <h4 class="text-primary font-bold">- Sarah J.</h4>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <div class="stars text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="italic text-gray-200 mb-5">"The premium website they built for us looks stunning and has drastically improved our conversion rates."</p>
+                    <h4 class="text-primary font-bold">- Michael R.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Pricing Plans -->
+    <section id="pricing" class="pricing py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Investment <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Plans</span></h2>
+            <div class="pricing-grid grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <h3 class="text-2xl mb-4 font-bold">Starter</h3>
+                    <div class="text-3xl font-extrabold mb-8 text-white">Custom Quote</div>
+                    <ul class="text-left mb-8 space-y-4">
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Standard Website</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Basic SEO</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Contact Form</li>
+                    </ul>
+                    <a href="#contact" class="inline-block bg-transparent text-white px-8 py-3 rounded-full font-semibold border border-white transition hover:bg-white hover:text-bg">Get Started</a>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border-primary rounded-2xl p-8 text-center border-2 lg:scale-105 relative">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-secondary px-4 py-1.5 rounded-full text-xs font-bold shadow-lg">Most Popular</div>
+                    <h3 class="text-2xl mb-4 font-bold">Growth</h3>
+                    <div class="text-3xl font-extrabold mb-8 text-white">Custom Quote</div>
+                    <ul class="text-left mb-8 space-y-4">
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Premium Web App</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Basic AI Chatbot</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Advanced SEO</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Business Automation</li>
+                    </ul>
+                    <a href="#contact" class="inline-block bg-gradient-to-br from-primary to-secondary text-white px-8 py-3 rounded-full font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(99,102,241,0.5)]">Get Started</a>
+                </div>
+                <div class="bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8 text-center transition hover:-translate-y-1 hover:border-white/20 hover:shadow-2xl hover:shadow-black/50">
+                    <h3 class="text-2xl mb-4 font-bold">Enterprise</h3>
+                    <div class="text-3xl font-extrabold mb-8 text-white">Custom Quote</div>
+                    <ul class="text-left mb-8 space-y-4">
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Custom AI Solutions</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Complex Web Platforms</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> Full Digital Marketing</li>
+                        <li class="text-gray-200"><i class="fas fa-check text-primary mr-2"></i> 24/7 Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="inline-block bg-transparent text-white px-8 py-3 rounded-full font-semibold border border-white transition hover:bg-white hover:text-bg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <section id="faq" class="faq py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Frequently Asked <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Questions</span></h2>
+            <div class="faq-list max-w-3xl mx-auto flex flex-col gap-5">
+                <div class="faq-item bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-6 cursor-pointer group">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="text-lg font-bold">What is an AI Chatbot and how can it help?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"></i>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 group-[.active]:max-h-[200px] group-[.active]:mt-5">
+                        <p class="text-gray-200">An AI Chatbot is an intelligent virtual assistant that can answer customer queries 24/7, qualify leads, and automate support, saving you time and money.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-6 cursor-pointer group">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="text-lg font-bold">How long does it take to build a premium website?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"></i>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 group-[.active]:max-h-[200px] group-[.active]:mt-5">
+                        <p class="text-gray-200">Depending on the complexity, a premium website usually takes between 2 to 6 weeks from initial design to final launch.</p>
+                    </div>
+                </div>
+                <div class="faq-item bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-6 cursor-pointer group">
+                    <div class="faq-question flex justify-between items-center">
+                        <h3 class="text-lg font-bold">Do you work with international clients?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"></i>
+                    </div>
+                    <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 group-[.active]:max-h-[200px] group-[.active]:mt-5">
+                        <p class="text-gray-200">Yes, absolutely! While we are based in Surat, India, we work with clients globally to deliver top-tier AI and web solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Contact Form -->
+    <section id="contact" class="contact py-16 md:py-24 reveal">
+        <div class="max-w-7xl mx-auto px-5">
+            <h2 class="text-3xl md:text-4xl text-center mb-10 md:mb-12 font-extrabold">Let's <span class="bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent">Connect</span></h2>
+            <div class="contact-grid grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="contact-info bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold mb-4">Contact Information</h3>
+                    <p class="text-gray-200 mb-8">Ready to transform your business? Reach out to us directly or fill out the form.</p>
+                    <div class="info-item flex items-center gap-4 mt-6">
+                        <i class="fas fa-envelope text-2xl text-primary"></i>
+                        <span>mfaiz06123@gmail.com</span>
+                    </div>
+                    <div class="info-item flex items-center gap-4 mt-6">
+                        <i class="fas fa-phone-alt text-2xl text-primary"></i>
+                        <span>+91 9265526452</span>
+                    </div>
+                    <div class="info-item flex items-center gap-4 mt-6">
+                        <i class="fas fa-map-marker-alt text-2xl text-primary"></i>
+                        <span>Surat, Gujarat, India</span>
+                    </div>
+                </div>
+                <form class="contact-form bg-glass-bg backdrop-blur-md border border-glass-border rounded-2xl p-8">
+                    <div class="form-group mb-5">
+                        <input type="text" placeholder="Your Name" required class="w-full p-4 bg-white/5 border border-glass-border rounded-xl text-white font-sans focus:outline-none focus:border-primary">
+                    </div>
+                    <div class="form-group mb-5">
+                        <input type="email" placeholder="Your Email" required class="w-full p-4 bg-white/5 border border-glass-border rounded-xl text-white font-sans focus:outline-none focus:border-primary">
+                    </div>
+                    <div class="form-group mb-5">
+                        <textarea placeholder="Tell us about your project" rows="5" required class="w-full p-4 bg-white/5 border border-glass-border rounded-xl text-white font-sans focus:outline-none focus:border-primary"></textarea>
+                    </div>
+                    <button type="submit" class="w-full inline-block bg-gradient-to-br from-primary to-secondary text-white px-8 py-4 rounded-xl font-semibold transition hover:-translate-y-0.5 hover:shadow-[0_0_20px_rgba(99,102,241,0.5)]">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer class="bg-black/30 pt-12 pb-5 border-t border-glass-border">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="footer-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mb-10">
+                <div class="footer-brand">
+                    <h2 class="text-3xl font-extrabold mb-4">FZ<span class="text-primary">Dev</span></h2>
+                    <p class="text-gray-200">We Build AI Solutions That Grow Your Business.</p>
+                </div>
+                <div class="footer-links">
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="flex flex-col gap-2">
+                        <li><a href="#services" class="text-gray-200 transition hover:text-primary">Services</a></li>
+                        <li><a href="#portfolio" class="text-gray-200 transition hover:text-primary">Portfolio</a></li>
+                        <li><a href="#pricing" class="text-gray-200 transition hover:text-primary">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="social-icons flex gap-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-glass-bg rounded-full text-white transition hover:bg-primary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-glass-bg rounded-full text-white transition hover:bg-primary"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-glass-bg rounded-full text-white transition hover:bg-primary"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center text-gray-200 border-t border-glass-border pt-5">
+                <p>&copy; 2026 FZ Dev. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
